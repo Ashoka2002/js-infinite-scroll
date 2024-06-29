@@ -9,7 +9,7 @@ let totalImages = 0;
 
 // Unplash api
 const count = 10;
-const apiKey = "9o1rbD4XeXPAUdsiA6LTHeDGPO-yhA-rNO40VAU_C2M";
+const apiKey = "**************************";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // images loaded
@@ -20,7 +20,7 @@ function imageLoaded() {
   }
 }
 
-// Set Attribues helper function
+// Set Attribuets helper function
 function setAttribute(element, attributes) {
   for (const key in attributes) {
     element.setAttribute(key, attributes[key]);
